@@ -13,4 +13,10 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+    public function test_that_name_is_jack()
+    {
+        $name = "Jack";
+        // $name = "Jack";
+        $this->assertTrue($name == "Jack");
+    }
 }
